@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// --- Translation Data ---
 const translations = {
   en: {
     title: "Fasal Sahayak",
@@ -9,13 +8,13 @@ const translations = {
     getAdvice: "Analyze Farm & Get Advice",
     loading: "Analyzing your farm's data...",
     recommendations: "Actionable Plan for Your Farm",
-    // Accordion Titles
+    
     farmInfo: "1. Basic Farm Information",
     fieldDetails: "2. Field & Soil Details",
     waterIrrigation: "3. Water & Irrigation",
     weatherClimate: "4. Weather & Climate",
     historyPractices: "5. Crop History & Practices",
-    // Form Labels
+    
     crop: "Primary Crop for this Season",
     location: "Location (Village, District)",
     fieldSize: "Field Size (in Acres)",
@@ -34,14 +33,14 @@ const translations = {
     fertilizerUsed: "Last Fertilizer Used",
     commonPests: "Common Pests & Diseases",
     tillage: "Tillage Practice",
-    // Options
+    
     crops: { wheat: "Wheat", rice: "Rice", corn: "Corn", sugarcane: "Sugarcane", cotton: "Cotton", soybean: "Soybean", potato: "Potato" },
     soils: { loamy: "Loamy", clay: "Clay", sandy: "Sandy", silty: "Silty", black_cotton: "Black Cotton" },
     waterSources: { rainfall: "Rainfall", canal: "Canal", borewell: "Borewell", river: "River", pond: "Pond/Tank" },
     irrigationMethods: { drip: "Drip Irrigation", sprinkler: "Sprinkler", flood: "Flood Irrigation", furrow: "Furrow" },
     fertilizers: { organic: "Organic (Manure)", chemical_urea: "Urea", chemical_dap: "DAP", mixed: "Mixed/NPK" },
     tillages: { conventional: "Conventional Tillage", no_till: "No-Till / Zero Tillage", minimum: "Minimum Tillage" },
-    // Recommendations
+    
     soilHealth: "Soil Health & Fertilization",
     waterMgmt: "Irrigation & Water Management",
     pestDisease: "Pest & Disease Control",
@@ -54,13 +53,13 @@ const translations = {
     getAdvice: "खेत का विश्लेषण करें और सलाह लें",
     loading: "आपके खेत के डेटा का विश्लेषण किया जा रहा है...",
     recommendations: "आपके खेत के लिए कार्य योजना",
-    // Accordion Titles
+    
     farmInfo: "1. खेत की सामान्य जानकारी",
     fieldDetails: "2. खेत और मिट्टी का विवरण",
     waterIrrigation: "3. पानी और सिंचाई",
     weatherClimate: "4. मौसम और जलवायु",
     historyPractices: "5. फसल इतिहास और प्रथाएं",
-    // Form Labels
+    
     crop: "इस मौसम की मुख्य फसल",
     location: "स्थान (गाँव, जिला)",
     fieldSize: "खेत का आकार (एकड़ में)",
@@ -79,14 +78,14 @@ const translations = {
     fertilizerUsed: "पिछली बार इस्तेमाल किया गया उर्वरक",
     commonPests: "आम कीट और रोग",
     tillage: "जुताई की प्रथा",
-    // Options
+    
     crops: { wheat: "गेहूँ", rice: "चावल", corn: "मक्का", sugarcane: "गन्ना", cotton: "कपास", soybean: "सोयाबीन", potato: "आलू" },
     soils: { loamy: "दोमट", clay: "चिकनी", sandy: "रेतीली", silty: "गाद", black_cotton: "काली कपास मिट्टी" },
     waterSources: { rainfall: "वर्षा", canal: "नहर", borewell: "बोरवेल", river: "नदी", pond: "तालाब" },
     irrigationMethods: { drip: "ड्रिप सिंचाई", sprinkler: "स्प्रिंकलर", flood: "बाढ़ सिंचाई", furrow: "कुंड सिंचाई" },
     fertilizers: { organic: "जैविक (खाद)", chemical_urea: "यूरिया", chemical_dap: "डीएपी", mixed: "मिश्रित/एनपीके" },
     tillages: { conventional: "पारंपरिक जुताई", no_till: "बिना जुताई", minimum: "न्यूनतम जुताई" },
-    // Recommendations
+    
     soilHealth: "मृदा स्वास्थ्य और उर्वरीकरण",
     waterMgmt: "सिंचाई और जल प्रबंधन",
     pestDisease: "कीट और रोग नियंत्रण",
@@ -99,13 +98,13 @@ const translations = {
     getAdvice: "ଫାର୍ମ ବିଶ୍ଳେଷଣ କରନ୍ତୁ ଏବଂ ପରାମର୍ଶ ପାଆନ୍ତୁ",
     loading: "ଆପଣଙ୍କ ଫାର୍ମର ତଥ୍ୟ ବିଶ୍ଳେଷଣ କରାଯାଉଛି...",
     recommendations: "ଆପଣଙ୍କ ଫାର୍ମ ପାଇଁ କାର୍ଯ୍ୟ ଯୋଜନା",
-    // Accordion Titles
+    
     farmInfo: "1. ସାଧାରଣ ଫାର୍ମ ସୂଚନା",
     fieldDetails: "2. କ୍ଷେତ୍ର ଏବଂ ମୃତ୍ତିକା ବିବରଣୀ",
     waterIrrigation: "3. ଜଳ ଏବଂ ଜଳସେଚନ",
     weatherClimate: "4. ପାଣିପାଗ ଏବଂ ଜଳବାୟୁ",
     historyPractices: "5. ଫସଲ ଇତିହାସ ଏବଂ ଅଭ୍ୟାସ",
-    // Form Labels
+    
     crop: "ଏହି ଋତୁ ପାଇଁ ମୁଖ୍ୟ ଫସଲ",
     location: "ସ୍ଥାନ (ଗାଁ, ଜିଲ୍ଲା)",
     fieldSize: "କ୍ଷେତ୍ର ଆକାର (ଏକରରେ)",
@@ -124,14 +123,14 @@ const translations = {
     fertilizerUsed: "ଶେଷ ବ୍ୟବହୃତ ସାର",
     commonPests: "ସାଧାରଣ କୀଟ ଏବଂ ରୋଗ",
     tillage: "ହଳ କରିବା ଅଭ୍ୟାସ",
-    // Options
+    
     crops: { wheat: "ଗହମ", rice: "ଧାନ", corn: "ମକା", sugarcane: "ଆଖୁ", cotton: "କପା", soybean: "ସୋୟାବିନ୍", potato: "ଆଳୁ" },
     soils: { loamy: "ଦୋରସା", clay: "କାଦୁଅ", sandy: "ବାଲିଆ", silty: "ପଟୁ", black_cotton: "କଳା କପା ମାଟି" },
     waterSources: { rainfall: "ବର୍ଷା", canal: "କେନାଲ", borewell: "ବୋରୱେଲ", river: "ନଦୀ", pond: "ପୋଖରୀ" },
     irrigationMethods: { drip: "ଡ୍ରିପ୍ ଜଳସେଚନ", sprinkler: "ସ୍ପ୍ରିଙ୍କଲର", flood: "ବା बाढ़ ଜଳସେଚନ", furrow: "ଫୁରୋ ଜଳସେଚନ" },
     fertilizers: { organic: "ଜୈବିକ (ଖତ)", chemical_urea: "ୟୁରିଆ", chemical_dap: "DAP", mixed: "ମିଶ୍ରିତ/NPK" },
     tillages: { conventional: "ପାରମ୍ପାରିକ ହଳ", no_till: "ବିନା ହଳ", minimum: "ନ્યૂନତମ ହଳ" },
-    // Recommendations
+    
     soilHealth: "ମୃତ୍ତିକା ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ସାର ପ୍ରୟୋଗ",
     waterMgmt: "ଜଳସେଚନ ଏବଂ ଜଳ ପରିଚାଳନା",
     pestDisease: "କୀଟ ଏବଂ ରୋଗ ନିୟନ୍ତ୍ରଣ",
@@ -140,7 +139,7 @@ const translations = {
   }
 };
 
-// --- Accordion Component ---
+
 const AccordionSection = ({ title, children, isOpen, onClick }) => (
   <div className="border-b">
     <button type="button" onClick={onClick} className="w-full flex justify-between items-center py-4 px-2 text-left">
@@ -156,7 +155,7 @@ const AccordionSection = ({ title, children, isOpen, onClick }) => (
 );
 
 
-// --- Main App Component ---
+
 function App() {
   const [lang, setLang] = useState('en');
   const [isLoading, setIsLoading] = useState(false);
