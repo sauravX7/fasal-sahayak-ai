@@ -1,0 +1,11 @@
+/* In a real Vite project with Tailwind installed, this would be: */
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+/* For this example, we'll keep the custom body font here */
+body {
+  font-family: 'Inter', sans-serif;
+}
