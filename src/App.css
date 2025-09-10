@@ -1,17 +1,13 @@
-/*
-==================================
-  1. GLOBAL & ROOT VARIABLES
-==================================
-*/
+
 :root {
-  --primary-green: #22c55e; /* Green 500 */
-  --dark-green: #41d531bb;    /* Green 700 */
-  --light-gray: #f3f4f6;   /* Gray 100 */
+  --primary-green: #22c55e; 
+  --dark-green: #41d531bb;   
+  --light-gray: #f3f4f6;   
   --bg-color: #ffffff;
-  --text-color: #1f2937;   /* Gray 800 */
+  --text-color: #1f2937;   
   --font-sans: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
   
-  /* Colors for animations */
+ 
   --particle-color-1: #a7f3d0;
   --particle-color-2: #ffffff;
 }
@@ -23,11 +19,7 @@ body {
   margin: 0;
 }
 
-/*
-==================================
-  2. HERO SECTION & ANIMATION
-==================================
-*/
+
 .hero-bg {
     background: var(--dark-green);
     position: relative;
@@ -41,7 +33,7 @@ body {
     position: relative;
 }
 
-/* New Particle Animation */
+
 .particles {
     position: absolute;
     top: 0;
@@ -61,7 +53,7 @@ body {
     animation: rise 10s infinite;
 }
 
-/* More particles with varied styles and delays */
+
 .particle:nth-child(1) { left: 10%; animation-duration: 7s; animation-delay: 0s; }
 .particle:nth-child(2) { left: 20%; animation-duration: 8s; animation-delay: 1s; width: 5px; height: 5px; background: var(--particle-color-2); }
 .particle:nth-child(3) { left: 30%; animation-duration: 6s; animation-delay: 2s; }
@@ -99,11 +91,7 @@ body {
 
 
 
-/*
-==================================
-  3. LANGUAGE SWITCHER
-==================================
-*/
+
 .language-switcher {
     position: absolute;
     top: 20px;
@@ -142,17 +130,13 @@ body {
 }
 
 
-/*
-==================================
-  4. FORM, ACCORDION & INPUTS
-==================================
-*/
+
 .form-input, .form-select {
-    border: 1px solid #d1d5db; /* Gray 300 */
+    border: 1px solid #d1d5db; 
     border-radius: 8px;
     padding: 12px;
     width: 100%;
-    background-color: #f9fafb; /* Gray 50 */
+    background-color: #f9fafb; 
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -188,10 +172,10 @@ body {
     cursor: not-allowed;
 }
 
-/* Accordion Styles */
+
 .border-b {
   border-bottom-width: 1px;
-  border-color: #e5e7eb; /* Gray 200 */
+  border-color: #e5e7eb; 
 }
 
 button[type="button"] {
@@ -199,15 +183,11 @@ button[type="button"] {
 }
 
 button[type="button"]:hover {
-  background-color: #f9fafb; /* Gray 50 */
+  background-color: #f9fafb; 
 }
 
 
-/*
-==================================
-  5. RESULTS & DYNAMIC CONTENT
-==================================
-*/
+
 .spinner-container {
     display: flex;
     justify-content: center;
@@ -239,7 +219,7 @@ button[type="button"]:hover {
 
 .result-card {
     background-color: var(--bg-color);
-    border: 1px solid #e5e7eb; /* Gray 200 */
+    border: 1px solid #e5e7eb; 
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
