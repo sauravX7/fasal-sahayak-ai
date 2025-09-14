@@ -1,7 +1,0 @@
-flask
-pandas
-scikit-learn
-numpy
-rasterio
-jupyter
-jupyter notebook
