@@ -1,7 +1,7 @@
+rasa==3.6.10
+google-generativeai==0.5.2
+ipykernel==6.25.2
 flask
+joblib
 pandas
 scikit-learn
-numpy
-rasterio
-jupyter
-jupyter notebook
