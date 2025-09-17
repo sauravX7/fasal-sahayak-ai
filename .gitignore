@@ -1,9 +1,8 @@
-
+act.bat
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
-act.bat
 # C extensions
 *.so
 
