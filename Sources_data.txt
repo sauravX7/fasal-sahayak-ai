@@ -1,0 +1,5 @@
+#all states yield data based on state/district
+https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production/data
+
+#Data of soil nutrients, crop type, required fertilizer.
+https://www.kaggle.com/datasets/shankarpriya2913/crop-and-soil-dataset
