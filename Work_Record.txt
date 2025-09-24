@@ -1,0 +1,10 @@
+Our Data Engineering Pipeline was the process we used to transform raw, messy data into a powerful, custom dataset for our AI model. It involved three key stages:
+
+1. Foundation: Building a Clean Base
+We started with 22 years of raw, nationwide agricultural records. Our first step was to process this massive file, filtering it to isolate only the relevant data for Odisha and cleaning out any errors or missing information. This gave us a reliable, foundational dataset to build upon.
+
+2. Enrichment Layer 1: Integrating Weather Patterns
+Recognizing that weather is a critical factor, we then enriched this foundational data. For every single crop record, our pipeline automatically made a specific API call to NASA POWER to fetch the exact historical daily weather for that district and growing season. We then calculated the average temperature and total rainfall, adding this crucial scientific data as new features.
+
+3. Enrichment Layer 2: Adding Soil Intelligence
+The final step was to add soil health data. We took a national dataset containing crop-specific soil nutrient levels and engineered a solution to merge it with our Odisha data. This involved creating a "mapping dictionary" to standardize different crop names (e.g., mapping "Paddy" to "Rice"). This allowed us to add representative Nitrogen (N), Phosphorus (P), and Potassium (K) levels for each crop, completing our final, fully-enriched dataset.
