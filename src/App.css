@@ -11,7 +11,7 @@
   --text-color: #1f2937;   /* Gray 800 */
   --font-sans: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
   
-  /* Colors for animations */
+  
   --particle-color-1: #a7f3d0;
   --particle-color-2: #ffffff;
 }
@@ -23,11 +23,6 @@ body {
   margin: 0;
 }
 
-/*
-==================================
-  2. HERO SECTION & ANIMATION
-==================================
-*/
 .hero-bg {
     background: var(--dark-green);
     position: relative;
@@ -41,7 +36,7 @@ body {
     position: relative;
 }
 
-/* New Particle Animation */
+
 .particles {
     position: absolute;
     top: 0;
@@ -61,7 +56,7 @@ body {
     animation: rise 10s infinite;
 }
 
-/* More particles with varied styles and delays */
+
 .particle:nth-child(1) { left: 10%; animation-duration: 7s; animation-delay: 0s; }
 .particle:nth-child(2) { left: 20%; animation-duration: 8s; animation-delay: 1s; width: 5px; height: 5px; background: var(--particle-color-2); }
 .particle:nth-child(3) { left: 30%; animation-duration: 6s; animation-delay: 2s; }
