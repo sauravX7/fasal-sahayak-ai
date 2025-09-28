@@ -14,6 +14,7 @@ export const translations = {
     historyPractices: "5. Crop History & Practices",
     
     crop: "Primary Crop for this Season",
+    season: "Season",
     location: "Location (Village, District)",
     fieldSize: "Field Size (in Acres)",
     soilType: "Soil Type",
@@ -33,6 +34,7 @@ export const translations = {
     tillage: "Tillage Practice",
     
     crops: { wheat: "Wheat", rice: "Rice", corn: "Corn", sugarcane: "Sugarcane", cotton: "Cotton", soybean: "Soybean", potato: "Potato" },
+    seasons:{ Kharif: "Kharif", Rabi: "Rabi", Zaid: "Zaid" },
     soils: { loamy: "Loamy", clay: "Clay", sandy: "Sandy", silty: "Silty", black_cotton: "Black Cotton" },
     waterSources: { rainfall: "Rainfall", canal: "Canal", borewell: "Borewell", river: "River", pond: "Pond/Tank" },
     irrigationMethods: { drip: "Drip Irrigation", sprinkler: "Sprinkler", flood: "Flood Irrigation", furrow: "Furrow" },
@@ -59,6 +61,7 @@ export const translations = {
     historyPractices: "5. फसल इतिहास और प्रथाएं",
     
     crop: "इस मौसम की मुख्य फसल",
+    season: "मौसम",
     location: "स्थान (गाँव, जिला)",
     fieldSize: "खेत का आकार (एकड़ में)",
     soilType: "मिट्टी का प्रकार",
@@ -78,6 +81,7 @@ export const translations = {
     tillage: "जुताई की प्रथा",
     
     crops: { wheat: "गेहूँ", rice: "चावल", corn: "मक्का", sugarcane: "गन्ना", cotton: "कपास", soybean: "सोयाबीन", potato: "आलू" },
+    seasons:{ Kharif: "Kharif", Rabi: "Rabi", Zaid: "Zaid" },
     soils: { loamy: "दोमट", clay: "चिकनी", sandy: "रेतीली", silty: "गाद", black_cotton: "काली कपास मिट्टी" },
     waterSources: { rainfall: "वर्षा", canal: "नहर", borewell: "बोरवेल", river: "नदी", pond: "तालाब" },
     irrigationMethods: { drip: "ड्रिप सिंचाई", sprinkler: "स्प्रिंकलर", flood: "बाढ़ सिंचाई", furrow: "कुंड सिंचाई" },
@@ -104,6 +108,7 @@ export const translations = {
     historyPractices: "5. ଫସଲ ଇତିହାସ ଏବଂ ଅଭ୍ୟାସ",
     
     crop: "ଏହି ଋତୁ ପାଇଁ ମୁଖ୍ୟ ଫସଲ",
+    season: "ଋତୁ",
     location: "ସ୍ଥାନ (ଗାଁ, ଜିଲ୍ଲା)",
     fieldSize: "କ୍ଷେତ୍ର ଆକାର (ଏକରରେ)",
     soilType: "ମୃତ୍ତିକା ପ୍ରକାର",
@@ -123,6 +128,7 @@ export const translations = {
     tillage: "ହଳ କରିବା ଅଭ୍ୟାସ",
     
     crops: { wheat: "ଗହମ", rice: "ଧାନ", corn: "ମକା", sugarcane: "ଆଖୁ", cotton: "କପା", soybean: "ସୋୟାବିନ୍", potato: "ଆଳୁ" },
+    seasons:{ Kharif: "Kharif", Rabi: "Rabi", Zaid: "Zaid" },
     soils: { loamy: "ଦୋରସା", clay: "କାଦୁଅ", sandy: "ବାଲିଆ", silty: "ପଟୁ", black_cotton: "କଳା କପା ମାଟି" },
     waterSources: { rainfall: "ବର୍ଷା", canal: "କେନାଲ", borewell: "ବୋରୱେଲ", river: "ନଦୀ", pond: "ପୋଖରୀ" },
     irrigationMethods: { drip: "ଡ୍ରିପ୍ ଜଳସେଚନ", sprinkler: "ସ୍ପ୍ରିଙ୍କଲର", flood: "ବା बाढ़ ଜଳସେଚନ", furrow: "ଫୁରୋ ଜଳସେଚନ" },

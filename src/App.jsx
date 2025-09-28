@@ -43,7 +43,7 @@ function App() {
       <Header t={t} setLang={setLang} lang={lang} />
       
       <div className="flex">
-        <ChatbotSidebar t={t} />
+        
 
         <main className="flex-1 p-4 sm:p-8 overflow-y-auto">
           <div className="max-w-4xl mx-auto">
@@ -61,8 +61,12 @@ function App() {
               elementRef={recommendationsRef} 
             />
           </div>
+          
         </main>
+        <ChatbotSidebar t={t} />
+
       </div>
+      
     </div>
   );
 }
