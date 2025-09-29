@@ -1,0 +1,56 @@
+/* --- chatbot.css (Complementary Styles) --- */
+
+/* Add a root font size for consistent scaling if needed */
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --text-gray-800: #1f2937;
+  --text-gray-500: #6b7280;
+  --indigo-500: #6366f1;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Add a subtle fade-in animation to the main placeholder */
+.chatbot-placeholder-animate {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Make the AI icon gently "float" to give it life */
+.placeholder-icon-animate {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Enhance the hover effect on the prompt starters */
+.prompt-starter-card {
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.prompt-starter-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
