@@ -10,7 +10,7 @@ export const translations = {
     farmInfo: "1. Basic Farm Information",
     fieldDetails: "2. Field & Soil Details",
     waterIrrigation: "3. Water & Irrigation",
-    weatherClimate: "4. Weather & Climate",
+    weatherClimate: "3. Weather & Climate",
     historyPractices: "5. Crop History & Practices",
     
     crop: "Primary Crop for this Season",
@@ -57,7 +57,7 @@ export const translations = {
     farmInfo: "1. खेत की सामान्य जानकारी",
     fieldDetails: "2. खेत और मिट्टी का विवरण",
     waterIrrigation: "3. पानी और सिंचाई",
-    weatherClimate: "4. मौसम और जलवायु",
+    weatherClimate: "3. मौसम और जलवायु",
     historyPractices: "5. फसल इतिहास और प्रथाएं",
     
     crop: "इस मौसम की मुख्य फसल",
@@ -104,7 +104,7 @@ export const translations = {
     farmInfo: "1. ସାଧାରଣ ଫାର୍ମ ସୂଚନା",
     fieldDetails: "2. କ୍ଷେତ୍ର ଏବଂ ମୃତ୍ତିକା ବିବରଣୀ",
     waterIrrigation: "3. ଜଳ ଏବଂ ଜଳସେଚନ",
-    weatherClimate: "4. ପାଣିପାଗ ଏବଂ ଜଳବାୟୁ",
+    weatherClimate: "3. ପାଣିପାଗ ଏବଂ ଜଳବାୟୁ",
     historyPractices: "5. ଫସଲ ଇତିହାସ ଏବଂ ଅଭ୍ୟାସ",
     
     crop: "ଏହି ଋତୁ ପାଇଁ ମୁଖ୍ୟ ଫସଲ",
