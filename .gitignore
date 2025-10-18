@@ -210,3 +210,6 @@ __marimo__/
 
 node_modules/
 deps
+
+Python, Pandas, Scikit-Learn, Joblib, Flask 
+Frontend : HTML, CSS, JavaScript, React JS
