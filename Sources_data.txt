@@ -3,3 +3,30 @@ https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production/data
 
 #Data of soil nutrients, crop type, required fertilizer.
 https://www.kaggle.com/datasets/shankarpriya2913/crop-and-soil-dataset
+
+
+
+
+**Datasets:**
+· [India Agriculture Crop Production (Kaggle)](https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production/data)
+· [Crop & Soil Dataset (Kaggle)](https://www.kaggle.com/datasets/shankarpriya2913/crop-and-soil-dataset)
+
+
+**APIs:**
+· [NASA POWER API](https://power.larc.nasa.gov/api/temporal/daily/point)
+· [OpenWeatherMap API](https://api.openweathermap.org/data/2.5/weather)
+
+
+**Soil NPK/pH:**
+· [Puri District Soil Fertility (ResearchGate)](https://www.researchgate.net/publication/343499855_Soil_Fertility_Status_of_Different_Blocks_of_Puri_District_of_Coastal_Odisha)
+· [Soils of Cuttack District (Odisha Review 2013)](https://magazines.odisha.gov.in/Orissareview/2013/jun/engpdf/52-58.pdf)
+· [Ganjam Soil Fertility (ResearchGate)](https://www.researchgate.net/publication/384235688_Analysis_of_the_Soil_Fertility_Condition_in_Jiliba_Village_Ganjam_District_Odisha/download)
+· [Balasore Soil Fertility (Pharma Journal)](https://www.thepharmajournal.com/archives/?year=2021&vol=10&issue=10&ArticleId=8374)
+· [Khordha Soil Mapping (ARCC Journals)](https://arccjournals.com/journal/agricultural-science-digest/D-6106)
+
+
+**Soil Types:**
+· [Soils of Odisha — Types & Management (ResearchGate)](https://www.researchgate.net/publication/388186343_Soils_of_Odisha_Types_Status_and_Management)
+· [Soils of Odisha — pscnotes.com](https://odisha.pscnotes.com/geography-orrisa/soils-of-odisha/)
+· [Soil of Orissa and Its Management (Odisha Review 2005)](https://magazines.odisha.gov.in/orissareview/nov2005/engpdf/Soil_of_Orissa_and_Its_Management.pdf)
+· [ICAR-CRIDA Odisha Report](https://www.icar-crida.res.in/assets_c/img/Books/statewise_prommising_climate_%20resilient_technologies_reports_13%20states&1UT/PCRT_Odisha.pdf)
